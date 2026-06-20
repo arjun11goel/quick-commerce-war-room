@@ -8,7 +8,8 @@ The project combines Python-based data preparation with Power BI dashboarding to
 
 ## Interactive Dashboard Demo
 
-![Dashboard Demo](screenshots/dashboard_demo.gif)
+<img width="852" height="480" alt="dashboard_demo" src="https://github.com/user-attachments/assets/390e2310-f7c5-4753-98b8-dbb3cce31823" />
+
 
 The dashboard consists of four business intelligence pages:
 - Executive War Room
@@ -249,6 +250,39 @@ Supported by:
 
 This design improves scalability and analytical performance.
 
+```text
+quick-commerce-war-room/
+│
+├── data/
+│   └── processed/
+│       ├── dim_customer.csv
+│       ├── dim_product.csv
+│       ├── dim_hub.csv
+│       ├── fact_orders.csv
+│       ├── fact_delivery.csv
+│       └── fact_order_product.csv
+│
+├── notebooks/
+│   ├── 01_Data_Loading.ipynb
+│   ├── 02_Data_Cleaning.ipynb
+│   ├── 03_KPI_Analysis.ipynb
+│   └── 04_Advanced_Business_Questions.ipynb
+│
+├── dashboard/
+│   ├── Quick_Commerce_War_Room.pbix (Not Uploaded due to github file size limit)
+│   └── Quick_Commerce_War_Room.pdf
+│
+├── screenshots/
+│   ├── executive_war_room.png
+│   ├── customer_intelligence.png
+│   ├── revenue_product_intelligence.png
+│   └── operations_intelligence.png
+|   └── dashboard_demo.gif
+│
+│
+└── README.md
+```
+
 ---
 
 ### Customer Segmentation
@@ -342,7 +376,5 @@ I welcome feedback, suggestions, and discussions regarding data analytics, busin
 Arjun Goel
 
 MCA, VIT Vellore
-
-Aspiring Data Analyst | Business Intelligence Enthusiast | Data Science Learner
 
 LinkedIn: https://www.linkedin.com/in/arjun11goel
