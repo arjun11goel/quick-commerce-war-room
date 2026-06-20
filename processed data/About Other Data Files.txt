@@ -1,0 +1,12 @@
+The original analytical dataset contained 500,000+ orders.
+Due to GitHub file size limitations, Unable to provide other datasets.
+The complete dataset was used during analysis and dashboard development.
+
+├── processed/
+    ├── dim_customer.csv
+    ├── dim_product.csv
+    ├── dim_hub.csv
+    ├── fact_orders_sample.csv
+    ├── fact_delivery_sample.csv
+    └── fact_order_product.csv
+
