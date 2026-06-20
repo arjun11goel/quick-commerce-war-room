@@ -6,6 +6,15 @@ This project simulates an executive business intelligence environment for a larg
 
 The project combines Python-based data preparation with Power BI dashboarding to analyze revenue performance, customer value, product demand, reorder behavior, and operational efficiency.
 
+## Interactive Dashboard Demo
+
+![Dashboard Demo](screenshots/dashboard_demo.gif)
+
+The dashboard consists of four business intelligence pages:
+- Executive War Room
+- Customer Intelligence
+- Revenue & Product Intelligence
+- Operations Intelligence
 
 ### Key KPIs
 
